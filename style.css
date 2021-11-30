@@ -8,11 +8,12 @@ header{
     border-right-style: ridge;
     width: 200px;
     border-color: #F3F3F3;
+    overflow: hidden;
 }
 
 header img{
     height: 80px;
-    display: block;
+    display: block;   
 }
 
 /* Inizio Sezione menu */
@@ -90,9 +91,9 @@ main>.banner-1{
 }
 
 
-        /* Fine prima sezione del corpo */
+    /* Fine prima sezione del corpo */
 
-        /* Inizio seconda sezione del corpo */
+    /* Inizio seconda sezione del corpo */
 .container{
     margin: 15px auto;
     padding-bottom: 2%;
@@ -166,6 +167,7 @@ main>.banner-1{
     width: 100%;
     position: relative;
     height: 260px;
+    
 }
 
 .container h3{
@@ -179,9 +181,23 @@ main>.banner-1{
     opacity: 0.5;
 }
 
-        /*Fine seconda sezione del corpo*/
-        
+    /*Fine seconda sezione del corpo*/
+
+/* Fine corpo */
+
+/* Inizio fine pagina */
+
 footer{
-    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+.heart{
+    font-size: 2em;
+    color: red;
+}
+
+/* Fine pagina */
+
 
